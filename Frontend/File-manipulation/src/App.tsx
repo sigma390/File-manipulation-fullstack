@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import './App.css'
 import InputFile from './Components/InputFiles/InputFile';
+import Upload from './Components/upload/Upload';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
        
     
         <InputFile/>
+        <Upload/>
 
 
 
